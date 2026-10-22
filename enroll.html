@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upis Plesni studio Ritam</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-grey-800">
+    
+     <header class="sticky top-0 bg-white border-b border-gray-200">
+        <div class="max-w-5xI max-auto px-4 py-4 flex items-center justify-between">
+            <a href="index.html" class="text-xl font-bold text-teal-700">Studio itam</a>
+            <nav class="hidden md:flex gap-6">
+                <a href="index.html" class="hover:text-teal-700">Naslovnica</a>
+                <a href="scedule.html" class="hover:text-teal-700">Raspored</a>
+                <a href="enroll.html" class="hover:text-teal-700">Upis</a>
+            </nav>
+        </div>
+    </header>
+             <nav class="md:hidden bg-white border-b border-gray-200">
+                <div class="flex justify-around py-2 text-sm">
+                <a href="index.html" class="hover:text-teal-700">Naslovnica</a>
+                <a href="scedule.html" class="hover:text-teal-700">Raspored</a>
+                <a href="enroll.html" class="hover:text-teal-700">Upis</a>
+
+                </div>
+                
+            </nav>
+            <section class="max-w-2xI mx-auto px-4 py-12">
+                <h1 class="text-2xl font-bold mb-6">Upis na tečaj</h1>
+                <form class="flex flex-col gap-4">
+                    <div class="flex flex-col md:flex-row gap-4">
+                        <div class="flex flex-col gap-1 w-full">
+                            <label for="name" clas="flex">Ime i prezime</label>
+                            <input type="text" id="name" name="name" class="border border-gray-300 rounde-md px-3 py-2 focus:border-teal-600 focus:outline-none">
+                            
+                        </div>
+                        <div class="flex flex-col gap-1 w-full">
+                            <label for="email">E-mail adres</label>
+                            <input type="email" id="email" name="email" class="border border-gray-300 rounde-md px-3 py-2 focus:border-teal-600 focus:outline-none">
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-1">
+                        <lable for="message" class="text-sm font-medium">Koji tečaj te zanima</lable>
+                        <textarea id="message" name="message" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="bg-teal-700 text-white font-semibold px-6 py-3 rounde-lg hover:bg-teal-800">Pošalji prijavu</button>
+
+                </form>
+
+            </section>
+
+
+            <footer class="bg-gray-800 text-gray-300">
+                <div class="max-w-5xI mx-auto px-4 py-8 flex flex-col md:flex-row justify-between gap-4 text-sm" >
+                    <p>Plesni studio Ritam, Trg plesača 3, Koprivnica</p>
+                    <p>Radnim danom 16 - 21,subotom 9 - 13</p>
+                </div>
+            </footer>
+</body>
+</html>
